@@ -19,6 +19,7 @@ exports.insertProduct = (req, res) => {
     db.serialize(() => {
         db.run(`INSERT INTO product(product_name,product_category) VALUES(?, ?)`, [req.body.product_name, req.body.product_category], err => {
             if(err){
+                res.send(err.message);
                 return console.error(err.message);
             }
             res.send("Success");
