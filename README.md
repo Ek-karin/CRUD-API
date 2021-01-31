@@ -1,0 +1,8 @@
+# CRUD-API
+LogicSpark Test.
+การติดตั้ง
+- Clone repository
+- ไปที่ folder ที่ clone เอาไว้ จากนั้นใช้คำสั่ง npm install
+- สร้าง database ตั้งชื่อว่า product.db
+- import file .csv ไปที่ product.db
+- ย้ายไฟล์ product.db ไปไว้ที่ 
